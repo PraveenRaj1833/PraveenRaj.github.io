@@ -1,0 +1,24 @@
+input[type="text"]{
+    border-radius: 5px;
+    height: 40px;
+}
+
+@media screen and (max-width:576px)
+{
+    input[type="text"]{
+        width: 480px;
+    }
+}
+
+@media screen and (max-width:495px)
+{
+    input[type="text"]{
+        width: auto;
+    }
+}
+
+input[type="submit"]{
+    border-radius: 5px;
+    height: 30px;
+    width: 100;
+}
